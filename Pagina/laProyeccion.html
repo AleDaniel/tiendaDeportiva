@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <HTML>
 <HEAD>
 	<title>Tienda de Deportes</title>
@@ -13,19 +14,63 @@
 }
 .texto {
 	background-color: white;
+	background-color: white;
+	border-collapse: collapse;
+	border: #3faf88 3px solid;
 }
 .tablaVerde {
 	background-color: white;
 	border-collapse: collapse;
 	border: #3faf88 5px solid;
 }
-.columnaVerde{
-	border: #3faf88 5px solid;
+.myButton {
+	-moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	-webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3faf88), color-stop(1, #3faf88));
+	background:-moz-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:-webkit-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:-o-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:-ms-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:linear-gradient(to bottom, #3faf88 5%, #3faf88 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3faf88', endColorstr='#3faf88',GradientType=0);
+	background-color:#3faf88;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	border:1px solid #6e7373;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
 }
-.formatoTabla{
-	background-color: #3faf88;
-	color:white;
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3faf88), color-stop(1, #3faf88));
+	background:-moz-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:-webkit-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:-o-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:-ms-linear-gradient(top, #3faf88 5%, #3faf88 100%);
+	background:linear-gradient(to bottom, #3faf88 5%, #3faf88 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3faf88', endColorstr='#3faf88',GradientType=0);
+	background-color:#3faf88;
 }
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+a:link 
+{ 
+	text-decoration:none; 
+}
+
+.sangria { text-indent: 1em }
+
 .btn {
   background: #3faf88;
   background-image: -webkit-linear-gradient(top, #3faf88, #3faf88);
@@ -52,6 +97,11 @@
   background-image: linear-gradient(to bottom, #3faf88, #26614c);
   text-decoration: none;
 }
+
+.margenIsq {
+	margin-left: 1%; 
+}
+
 </style>
 <BODY bgcolor="#d1d1cc"  Link=black Vlink=black>
 	<table width="100%" class="formato">
@@ -61,70 +111,69 @@
 				<p align="center">Avenida Mariscal Lopez 4569 Asuncion</p>
 			</td>
 		</tr>
+
 	</table>
-	<br><br><br><br><br><br>
-	<a href="../PaginaDeDeportes.html" class="btn">
+	<br><br><br><br><br><br><br><br>
+
+<a href="../PaginaDeDeportes.html" class="btn">
 		Inicio
 	</a>
 	<br><br><br>
-	<table width="100%" class="tablaVerde" border="1" >
-		<tr class="formatoTabla">
+
+	<hr>
+	<table width="100%" border="0">
+		<tr>
 			<th>
-				Articulo
+				<a href="ropaDeportiva.html" class="myButton">
+					Ropa     
+				</a>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 			</th>
 			<th>
-				Descripcion
+				-
 			</th>
 			<th>
-				Imagen
+				<a href="calzadosDeportivos.html" class="myButton">
+					Calzados
+				</a>
+			</th>
+			<th>
+				-
+			</th>
+			<th>
+				<a href="articulosDeportivos.html" class="myButton">
+					Articulos
+				</a>
 			</th>
 		</tr>
+	</table>
+	<hr>
+	<br><br><br>
+	<table width="100%" class="texto">
 		<tr>
 			<td>
-				<p align="center">
-				Pelota <br>
-				Precio: 80.000 Gs
+				<p align=justify class="sangria">
+					<b>La proyección de la oportunidad de negocio </b>  <br><br></p>
+					<blockquote>
+					<p align=justify>La actividad física se ha convertido en un ícono de esta generación donde la búsqueda del equilibrio personal, el rendimiento físico y la vida saludable impulsa cada día a más personas a la práctica de deportes. <br><br>
+Para cumplir con los objetivos se necesita; ropa, accesorios e implementos especializados que le permitan desarrollar una actividad con el menor impacto físico negativo. <br><br>
+Es por ello que una tienda de deportes se convierte en un negocio rentable, donde la calidad de los productos y la variedad de precios es lo que determina el poder competitivo. <br><br>
+
+Las tiendas de deportes en última instancia pueden ser emprendimientos exitosos y gratificantes para los amantes del deporte. Ofrecen una conexión a los equipos de la comunidad y la oportunidad de ayudar a los atletas incipientes. 
+ </p>
+					</blockquote>
+
+					
+
+
 				</p>
 			</td>
-			<td>
-				<p align=center>Una pelota de futbol marca nike
-				</p>
-			</td>
-			<th>
-				<img src="imagenes/artDeportivos/pelota.jpg" align="center" border=1>
-			</th>
-		</tr>
-		<tr>
-			<td>
-				<p align="center"> Protector de Cabeza <br>
-				Precio: 118.591 ₲ 
-				</p>
-			</td>
-			<td>
-				<p align=center>Hotmen's Sport portero Protector de Cabeza Ajustable Soporte de casco de arquero de fútbol
-				</p>
-			</td>
-			<th>
-				<img src="imagenes/artDeportivos/2.jpg" align="rigth" border=1>
-			</th>
-		</tr>
-		<tr>
-			<td>
-				<p align="center">Kit para Neymar Jr Messi Ronaldo <br>
-				Precio: 26.000 ₲ a 103.833.33 ₲
-				</p>
-			</td>
-			<td>
-				<p align=center>Fútbol Balonpié Niños Kit para Neymar Jr Messi Ronaldo Jersey Con Calcetines
-				</p>
-			</td>
-			<th>
-				<img src="imagenes/artDeportivos/3.jpg" align="rigth" border=1>
-			</th>
 		</tr>
 	</table>
 	<br><br><br><br>
 	<hr>
+	<br>
+
 	<table width="100%" border=0 cellspacing="4" cellpadding="2" class="margenIsq">
 
 		<tr>			
@@ -230,5 +279,6 @@
 
 				</ul>
 			</table>
-</BODY>
-</HTML>
+			<br><br>
+		</BODY>
+	</HTML>
